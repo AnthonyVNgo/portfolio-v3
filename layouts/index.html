@@ -35,17 +35,56 @@
 
         Fast forward to today and I can now make more than a simple blog, but full-stack apps, and even get to work on projects with an international team.
       </p>
-      <!-- <p>Here are some technologies I've picked up since the start of my journey as a developer</p>
-      <i class="fa-brands fa-html5"></i>
-      <i class="fa-brands fa-css3-alt"></i>
-      <i class="fa-brands fa-js"></i>
-      <i class="fa-brands fa-react"></i>
-      <i class="fa-brands fa-vuejs"></i>
-      <i class="fa-brands fa-node"></i>
-      <i class="fa-brands fa-sass"></i>
-      <i class="fa-brands fa-bootstrap"></i>
-      <i class="fa-brands fa-wordpress"></i>
-      <i class="fa-brands fa-git-alt"></i> -->
+      <p>headshot goes here</p>
+    </div>
+  </section>
+  <section class="row justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col">
+      <h1>Things I Built</h1>
+      <p>
+        loop through projects. include tech and descriptions. exclude hover effects
+      </p>
+    </div>
+  </section>
+  <!-- Project cards  -->
+	<div class="row gy-2 gx-2">
+		{{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
+		{{ range (.Paginate $p).Pages }}
+			<div class="col-12 col-lg-6"> 	
+				<!-- <a href="{{ .RelPermalink }}" class="text-body"> -->
+				<a href="{{ .Params.link }}" class="text-body" target="_blank">
+					<!-- <div class="overlay-container ratio ratio-1x1"> -->
+					<div class="overlay-container ratio ratio-1x1">
+						<img src="{{.Params.featuredImage}}" alt="{{.Title}}" class="project-img">
+						<div class="overlay d-flex align-items-center">
+							<div class="text-center px-5">
+								
+								<!-- Card content  -->
+								<h3>
+									{{.Title}}
+								</h3>
+								<p>
+									{{ .Content}}
+								</p>
+								
+								<!-- Technology badges -->
+								{{ range $tags := .Params.tags }}
+									<span class="badge bg-secondary">
+										{{ $tags }}
+									</span>
+								{{ end }}
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>		
+		{{ end }}
+		<!-- {{ template "_internal/pagination.html" . }} -->
+	</div>
+  <section class="row justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col">
+      <h1>Fin</h1>
+      <p>re-iterate contact info stuff</p>
     </div>
   </section>
 <div>
