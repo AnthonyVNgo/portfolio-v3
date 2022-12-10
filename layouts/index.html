@@ -38,45 +38,26 @@
       <p>headshot goes here</p>
     </div>
   </section>
-  <section class="row justify-content-center align-items-center" style="height: 100vh;">
-    <div class="col">
-      <h1>Things I Built</h1>
-      <p>
-        loop through projects. include tech and descriptions. exclude hover effects
-      </p>
-    </div>
-  </section>
-  
-	</div>
-  <section class="row justify-content-center align-items-center" style="height: 100vh;">
-    <div class="col">
-      <h1>Fin</h1>
-      <p>re-iterate contact info stuff</p>
-    </div>
-  </section>
-
-  <!-- Project cards  -->
-	<div class="row gy-2 gx-2">
-		{{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
+  <!-- <section class="row justify-content-center align-items-center" style="height: 100vh;"> -->
+  <section class="row gy-2 gx-2" style="height: 100vh;">
+    <div class="col-12 col-lg-6"> 	
+    <h1>Projects</h1>
+    {{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
 		{{ range (.Paginate $p).Pages }}
-			<div class="col-12 col-lg-6"> 	
 				<!-- <a href="{{ .RelPermalink }}" class="text-body"> -->
-				<a href="{{ .Params.link }}" class="text-body" target="_blank">
-					<!-- <div class="overlay-container ratio ratio-1x1"> -->
+				<!-- <a href="{{ .Params.link }}" class="text-body" target="_blank">
 					<div class="overlay-container ratio ratio-1x1">
 						<img src="{{.Params.featuredImage}}" alt="{{.Title}}" class="project-img">
 						<div class="overlay d-flex align-items-center">
 							<div class="text-center px-5">
 								
-								<!-- Card content  -->
 								<h3>
-									{{.Title}}
+									
 								</h3>
 								<p>
 									{{ .Content}}
 								</p>
 								
-								<!-- Technology badges -->
 								{{ range $tags := .Params.tags }}
 									<span class="badge bg-secondary">
 										{{ $tags }}
@@ -85,9 +66,28 @@
 							</div>
 						</div>
 					</div>
-				</a>
-			</div>		
-		{{ end }}
+				</a> -->
+        <div class="card" style="width: 18rem;">
+          <img src="{{.Params.featuredImage}}" class="card-img-top project-img" alt="{{.Title}}">
+          <div class="card-body">
+            <h5 class="card-title">{{.Title}}</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        {{ end }}
+        </div>		
+  </section>
+  
+	<!-- </div>
+  <section class="row justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col">
+      <h1>Fin</h1>
+      <p>re-iterate contact info stuff</p>
+    </div>
+  </section> -->
+
+  
 <div>
 
 <!-- end  -->
