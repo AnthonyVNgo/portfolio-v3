@@ -7,4 +7,4 @@ featuredImage: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?ixl
 link: 'https://brandonvan.com/'
 ---
 
-A portfolio page built with Wordpress CMS and Elementor Pro designed to market the client's work and enable communications via the contact page and social media links. 
+A portfolio page built with Wordpress CMS and Elementor Pro designed to market the work and enable communications via the contact page and social media links. 

@@ -38,45 +38,34 @@
       <p>headshot goes here</p>
     </div>
   </section>
-  <!-- <section class="row justify-content-center align-items-center" style="height: 100vh;"> -->
-  <section class="row gy-2 gx-2" style="height: 100vh;">
+  
+  <section class="row gy-2 gx-2">
     <div class="col-12 col-lg-6"> 	
     <h1>Projects</h1>
-    {{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
-		{{ range (.Paginate $p).Pages }}
-				<!-- <a href="{{ .RelPermalink }}" class="text-body"> -->
-				<!-- <a href="{{ .Params.link }}" class="text-body" target="_blank">
-					<div class="overlay-container ratio ratio-1x1">
-						<img src="{{.Params.featuredImage}}" alt="{{.Title}}" class="project-img">
-						<div class="overlay d-flex align-items-center">
-							<div class="text-center px-5">
-								
-								<h3>
-									
-								</h3>
-								<p>
-									{{ .Content}}
-								</p>
-								
-								{{ range $tags := .Params.tags }}
-									<span class="badge bg-secondary">
-										{{ $tags }}
-									</span>
-								{{ end }}
-							</div>
-						</div>
-					</div>
-				</a> -->
-        <div class="card" style="width: 18rem;">
-          <img src="{{.Params.featuredImage}}" class="card-img-top project-img" alt="{{.Title}}">
-          <div class="card-body">
-            <h5 class="card-title">{{.Title}}</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      {{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
+      {{ range (.Paginate $p).Pages }}
+        <a href="{{ .Params.link }}" class="text-body text-decoration-none" target="_blank">
+          <div class="card w-100 py-5 border-end-0 border-start-0 border-bottom-0 rounded-0" style="width: 18rem;">
+            <div class="ratio ratio-1x1">
+              <img src="{{.Params.featuredImage}}" class="project-img" alt="{{.Title}}">
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center my-4">
+                <h5 class="card-title mb-0 fw-bold">{{.Title}}</h5>
+              </div>
+              <p class="card-text">
+                {{ .Content}}
+              </p>
+              {{ range $tags := .Params.tags }}
+                <span class="badge bg-secondary">
+                  {{ $tags }}
+                </span>
+              {{ end }}
+            </div>
           </div>
-        </div>
-        {{ end }}
-        </div>		
+        </a>
+      {{ end }}
+    </div>		
   </section>
   
 	<!-- </div>
