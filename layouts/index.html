@@ -27,7 +27,7 @@
     </div>
   </section>
   
-  <!-- <section class="row justify-content-center align-items-center" style="height: 100vh;">
+  <section class="row justify-content-center align-items-center" style="height: 100vh;">
     <div class="col">
       <h1>About Me</h1>
       <p>
@@ -37,35 +37,35 @@
       </p>
       <p>headshot goes here</p>
     </div>
-  </section> -->
-  
-  <section>
-    <h1>Projects</h1>
   </section>
-  {{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
-  {{ range (.Paginate $p).Pages }}
-    <div class="row py-5 py-lg-0 card flex-sm-row border-end-0 border-start-0 border-bottom-0 rounded-0">
-      <!-- img col  -->
-      <a href="{{ .Params.link }}" class="text-body text-decoration-none col-12 col-lg-6 p-lg-5" target="_blank">
-        <div class="ratio ratio-1x1">
-          <img src="{{.Params.featuredImage}}" class="project-img" alt="{{.Title}}">
-        </div>
-      </a>
+  
+  <section class="project-section">
+    <h1>Projects</h1>
+      {{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
+      {{ range (.Paginate $p).Pages }}
+        <div class="row py-5 py-lg-0 card border-end-0 border-start-0 border-bottom-0 rounded-0">
+          <!-- img col  -->
+          <a href="{{ .Params.link }}" class="text-body text-decoration-none col-12 col-lg-6 p-lg-5" target="_blank">
+            <div class="ratio ratio-1x1">
+              <img src="{{.Params.featuredImage}}" class="project-img" alt="{{.Title}}">
+            </div>
+          </a>
 
-      <!-- details col  -->
-      <a href="{{ .Params.link }}" class="text-body text-decoration-none col-12 col-lg-6 p-lg-5" target="_blank">
-        <h5 class="card-title my-4 fw-bold">{{.Title}}</h5>
-        <p class="card-text">
-          {{ .Content}}
-        </p>
-        {{ range $tags := .Params.tags }}
-          <span class="badge bg-secondary">
-            {{ $tags }}
-          </span>
-        {{ end }}
-      </a>
-    </div>
-  {{ end }}
+          <!-- details col  -->
+          <a href="{{ .Params.link }}" class="text-body text-decoration-none col-12 col-lg-6 p-lg-5" target="_blank">
+            <h5 class="card-title my-4 fw-bold">{{.Title}}</h5>
+            <p class="card-text">
+              {{ .Content}}
+            </p>
+            {{ range $tags := .Params.tags }}
+              <span class="badge bg-secondary">
+                {{ $tags }}
+              </span>
+            {{ end }}
+          </a>
+        </div>
+      {{ end }}
+  </section>
 
 <div>
 

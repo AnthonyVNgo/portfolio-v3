@@ -3,3 +3,10 @@
   object-position: center;
   border-radius: 10px;
 }
+
+.project-section > div {
+  flex-direction: row-reverse;
+}
+.project-section > div:nth-child(odd) {
+  flex-direction: row;
+}
