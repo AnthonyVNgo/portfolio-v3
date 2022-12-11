@@ -1,3 +1,8 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 .project-img {
   object-fit: cover;
   object-position: center;
@@ -9,4 +14,36 @@
 }
 .project-section > div:nth-child(odd) {
   flex-direction: row;
+}
+
+/* All  */
+.headlines {
+  /* font-size: 2.5rem; */
+  font-size: 4rem;
+  font-weight:600
+}
+
+/* Hero Section  */
+.hero-pretext {
+  font-size: 1.25rem;
+}
+
+.hero-text {
+  font-size: 2.5rem;
+  font-weight:600
+}
+
+.hero-subtext {
+  font-size: 1.5rem;
+}
+
+/* About Me Section  */
+.about-me {
+  font-size: 1.5rem;
+}
+
+/* Projects Section  */
+.project-titles {
+  font-size: 2rem;
+  font-weight:600
 }

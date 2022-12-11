@@ -2,13 +2,17 @@
 
 <div class="container px-4">
   <section class="row justify-content-center align-items-center" style="height: 100vh;">
-    <div class="col">
-      <h6>Hi, my name is</h6>
-      <h1>Anthony Ngo</h1>
-      <h1>I build things for the web</h1>
-      <p>
-        I'm a full stack developer with a strong emphasis on front-end technologies. Currently, I'm developing UI @ Aptive Education
-
+    <div class="col-8">
+      <h6 class="hero-pretext">Hi, my name is</h6>
+      <h1 class="hero-text">
+        Anthony Ngo
+        <br>
+        I build things for the web
+      </h1>
+      <p class="hero-subtext">
+        I'm a full stack developer with a strong emphasis on front-end technologies. 
+        <br>
+        Currently, I'm developing UI @ Aptive Education
       </p>
       <div>
         <a class="text-decoration-none text-dark pe-4" href="https://github.com/AnthonyVNgo" target="_blank">
@@ -27,23 +31,36 @@
     </div>
   </section>
   
-  <section class="row justify-content-center align-items-center" style="height: 100vh;">
+  <section>
+  <div class="row">
     <div class="col">
-      <h1>About Me</h1>
-      <p>
-        My interest in development began when I built my first blog on Wordpress. I always wanted to build more but found my creativity restricted by my skillset. 
-
-        Fast forward to today and I can now make more than a simple blog, but full-stack apps, and even get to work on projects with an international team.
-      </p>
-      <p>headshot goes here</p>
+      <h1 class="headlines">About Me</h1>
     </div>
+  </div>
+  <div class="row justify-content-center py-5 py-lg-0 border-top align-items-center" style="height: 60vh;">
+    <div class="col-6 p-lg-5">
+      <p class="about-me">
+        My interest in development began when I built my first blog on Wordpress. I always wanted to build more, but found my creativity restricted by my skillset ...
+      </p>
+    </div>
+    <div class="col-6 p-lg-5">
+      <p class="about-me">
+        ... Fast forward to today and I can not only make a simple blog, but also full-stack apps, and have even had the chacne to work on projects with an international team.
+      </p>
+    </div>
+  </div>
   </section>
-  
+    
   <section class="project-section">
-    <h1>Projects</h1>
+    <div class="row">
+      <div class="col">
+        <h1 class="headlines">Projects</h1>
+      </div>
+    </div>
+
       {{ $p := (where site.RegularPages "Type" "projects").ByPublishDate.Reverse }}
       {{ range (.Paginate $p).Pages }}
-        <div class="row py-5 py-lg-0 card border-end-0 border-start-0 border-bottom-0 rounded-0">
+        <div class="row py-5 py-lg-0 border-top">
           <!-- img col  -->
           <a href="{{ .Params.link }}" class="text-body text-decoration-none col-12 col-lg-6 p-lg-5" target="_blank">
             <div class="ratio ratio-1x1">
@@ -53,7 +70,7 @@
 
           <!-- details col  -->
           <a href="{{ .Params.link }}" class="text-body text-decoration-none col-12 col-lg-6 p-lg-5" target="_blank">
-            <h5 class="card-title my-4 fw-bold">{{.Title}}</h5>
+            <h5 class="card-title my-4 fw-bold ">{{.Title}}</h5>
             <p class="card-text">
               {{ .Content}}
             </p>
@@ -66,6 +83,16 @@
         </div>
       {{ end }}
   </section>
+
+  <section>
+    <div class="row">
+      <div class="col">
+        <h1 class="headlines">Connect</h1>
+      </div>
+    </div>
+    <!-- <div class="row justify-content-center py-5 py-lg-0 border-top align-items-center" style="height: 60vh;">
+    </div> -->
+    </section>
 
 <div>
 
