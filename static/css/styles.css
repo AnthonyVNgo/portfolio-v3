@@ -17,14 +17,6 @@
   flex-direction: row;
 }
 
-header {
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 60px;
-  background-color: #32393f;
-}
-
 /* All  */
 .headlines {
   font-size: 2rem;
@@ -117,7 +109,7 @@ header {
 
 
 .menu-items {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -161,14 +153,13 @@ header {
   font-weight: 500;
 }
 
-.nav-container {
-  justify-content: space-between;
+/* .nav-container {
   align-items: center;
-  height: 62px;
   position: relative;
-}
+  height: 60px;
+} */
 
-.nav-container a {
+ul > li > a {
   text-decoration: none;
   color: white;
   font-weight: 400;
@@ -176,7 +167,24 @@ header {
   padding: 0.7rem;
 }
 
-.logo {
+.d-flex > a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+/* .logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+#logo h4 {
+  /* margin-top: 0.75rem; */
+  font-size: 1.2rem;
+  color: white;
+}
+/* .logo {
   position: absolute;
   top: 5px;
   left: 20px;
@@ -186,4 +194,4 @@ header {
 
 .logo h1 {
   margin-top: 0.75rem;
-}
+} */

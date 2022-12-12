@@ -1,80 +1,52 @@
-<!-- <header class="bg-dark" style="position: fixed; left: 0; right: 0;">
-  <nav>
-    <div class="container" style="color: white; z-index: 10; height: 100px;">
-      <div class="row" style="justify-content: space-between;">
-        <div class="col">
-          <a href="#hero-section" id="logo" class="">{{.Title}}</a>
-        </div>
-        <div class="col">
-          <button class="btn text-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-          </button>
-          <button id="hamburger" type="button"></button>
-          <div class="hamburger-lines">
-            <span id="line1" class="line line1"></span>
-            <span id="line2" class="line line2"></span>
-            <span id="line3" class="line line3"></span>
-          </div>
-          <div class="menu-items">
-            <ul class="menu-item-ul">
-              <li><a href="#overview">Overview</a></li>
-              <li><a href="#nowww">Nowww</a></li>
-              <li><a href="#happyhere">Happy Here</a></li>
-              <li><a href="#wordpress">Wordpress</a></li>
-              <li><a href="#qa">Q+A</a></li>
-              <li><a href="#connect">Connect</a></li>
-              <li>
-                <a href="https://github.com/AnthonyVNgo" target="_blank">
-                  <i class="fa-brands fa-github"></i> GitHub
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/anthony-ngo-480564114/" target="_blank">
-                  <i class="fa-brands fa-linkedin"></i>LinkedIn
-                </a>
-              </li>
-            </ul>
-          </div>
+<nav class="position-fixed start-0 end-0" style="background-color: #32393f;">
+  <div class="d-sm-none position-relative align-items-center" style="height: 60px;">
+    <button id="hamburger" type="button"></button>
+    <div class="hamburger-lines">
+      <span id="line1" class="line line1"></span>
+      <span id="line2" class="line line2"></span>
+      <span id="line3" class="line line3"></span>
+    </div>
+    <!-- <div id="logo" class="logo-container"> -->
+    <div id="logo" class="position-absolute top-0 h-100 d-flex align-items-center" style="left: 20px">
+      <h4 class="">Anthony Ngo</h4>
+    </div>
+    <div id="menu-items" class="menu-items">
+      <ul id="menu-item-ul">
+        <li><a href="#hero-section">{{.Title}}</a></li>
+        <li><a href="#about-me-section">About Me</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#connect-section">Connect</a></li>
+        <li>
+          <a href="https://github.com/AnthonyVNgo" target="_blank">
+            <i class="fa-brands fa-github me-1"></i> GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/anthony-ngo-480564114/" target="_blank">
+            <i class="fa-brands fa-linkedin me-1"></i>LinkedIn
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container d-none d-md-block" style="height: 60px;">
+    <div class="row justify-content-between align-items-center h-100">
+      <div class="col-auto">
+        <h5 class="text-white">{{.Title}}</h5>
+      </div>
+      <div class="col-auto">
+        <div class="d-flex">
+          <a href="#about-me-section" class="">About</a>
+          <a href="#projects-section" class="">Projects</a>
+          <a href="#connect-section" class="">Connect</a>
+          <a href="https://github.com/AnthonyVNgo" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/anthony-ngo-480564114/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>LinkedIn
+          </a>
         </div>
       </div>
     </div>
-  </nav>
-</header> -->
-
-<!-- <header style="position: fixed; left: 0; right: 0;">
-  <nav style="height: 60px"> -->
-<header>
-  <nav>
-    <div class="nav-container">
-      <button id="hamburger" type="button"></button>
-      <div class="hamburger-lines">
-        <span id="line1" class="line line1"></span>
-        <span id="line2" class="line line2"></span>
-        <span id="line3" class="line line3"></span>
-      </div>
-      <div id="logo" class="logo">
-        <h1>Anthony Ngo</h1>
-      </div>
-      <div id="menu-items" class="menu-items">
-        <ul id="menu-item-ul">
-          <li><a href="#hero-section">{{.Title}}</a></li>
-          <li><a href="#about-me-section">About Me</a></li>
-          <li><a href="#projects-section">Projects</a></li>
-          <li><a href="#connect-section">Connect</a></li>
-          <li>
-            <a href="https://github.com/AnthonyVNgo" target="_blank">
-              <i class="fa-brands fa-github me-1"></i> GitHub
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/anthony-ngo-480564114/" target="_blank">
-              <i class="fa-brands fa-linkedin me-1"></i>LinkedIn
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+  </div>
+</nav>

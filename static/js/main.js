@@ -12,7 +12,8 @@ const bodyElement = document.querySelector('#body');
 let clicked = false;
 
 const showLogo = () => {
-  logo.className = 'logo';
+  // logo.className = 'logo';
+  logo.className = 'position-absolute top-0 start-0 h-100 d-flex align-items-center';
 };
 
 const hideLogo = () => {
