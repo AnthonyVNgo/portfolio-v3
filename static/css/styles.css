@@ -142,16 +142,6 @@ header {
   background-color: #212529;
 }
 
-.menu-item-ul {
-  width: 100%;
-}
-
-.menu-item-ul li {
-  padding: 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
 .overflow-y-hidden {
   overflow-y: hidden;
 }
@@ -171,10 +161,29 @@ header {
   font-weight: 500;
 }
 
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  position: relative;
+}
+
 .nav-container a {
   text-decoration: none;
   color: white;
-  font-weight: 500;
-  font-size: 1.35rem;
+  font-weight: 400;
+  font-size: 1.25rem;
   padding: 0.7rem;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.logo h1 {
+  margin-top: 0.75rem;
 }

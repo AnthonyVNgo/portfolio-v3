@@ -12,7 +12,7 @@ const bodyElement = document.querySelector('#body');
 let clicked = false;
 
 const showLogo = () => {
-  logo.className = ''
+  logo.className = 'logo';
 };
 
 const hideLogo = () => {
