@@ -3,8 +3,6 @@ const line1 = document.querySelector('#line1');
 const line2 = document.querySelector('#line2');
 const line3 = document.querySelector('#line3');
 const logo = document.querySelector('#logo');
-// const menuItems = document.querySelector('.menu-items');
-// const menuItemUL = document.querySelector('.menu-item-ul');
 const menuItems = document.querySelector('#menu-items');
 const menuItemUL = document.querySelector('#menu-item-ul');
 const bodyElement = document.querySelector('#body');
@@ -12,7 +10,6 @@ const bodyElement = document.querySelector('#body');
 let clicked = false;
 
 const showLogo = () => {
-  // logo.className = 'logo';
   logo.className = 'position-absolute top-0 h-100 d-flex align-items-center';
 };
 
