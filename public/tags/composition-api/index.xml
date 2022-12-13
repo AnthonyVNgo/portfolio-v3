@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Composition API on Anthony Ngo</title>
+    <link>/tags/composition-api/</link>
+    <description>Recent content in Composition API on Anthony Ngo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Dec 2022 16:59:28 -0800</lastBuildDate><atom:link href="/tags/composition-api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LearnFS.xyz</title>
+      <link>/projects/learnfsxyz/</link>
+      <pubDate>Mon, 12 Dec 2022 16:59:28 -0800</pubDate>
+      
+      <guid>/projects/learnfsxyz/</guid>
+      <description>A webapp to help users learn ASL Fingerspelling alphabet. As a perpetual student, polyglot in progress, and someone who has lived abroad, I&amp;rsquo;ve come to love learning languages (which also extends to programming languages), and that&amp;rsquo;s why I created this project.</description>
+    </item>
+    
+    <item>
+      <title>EDC Week Clone</title>
+      <link>/projects/edc-week/</link>
+      <pubDate>Sun, 30 Oct 2022 00:26:18 -0700</pubDate>
+      
+      <guid>/projects/edc-week/</guid>
+      <description>A clone of EDC Week&amp;rsquo;s webpage built with Vue3, Vue Router4, and Tailwind CSS. I built this side project because my new position&amp;rsquo;s tech stack uses Vue instead of what I learned in my bootcamp (React). I wanted to build my own project to get the ins and outs and fundamentals down and I like Insomniac events, so I decided to make a clone of its 2022 EDC Week page.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Anthony Ngo</title>
+    <link>/tags/css/</link>
+    <description>Recent content in CSS on Anthony Ngo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Dec 2022 16:55:46 -0800</lastBuildDate><atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio v2</title>
+      <link>/projects/portfolio-2/</link>
+      <pubDate>Mon, 12 Dec 2022 16:55:46 -0800</pubDate>
+      
+      <guid>/projects/portfolio-2/</guid>
+      <description>A multipage portfolio built with Hugo and Bootstrap5. I built this because I needed to update my work and wanted to create a multipage site, and I used Hugo because it simplified blogging and updating content. (I learned that singlepagers provide less friction for visitors. Each click to a different page becomes a potential deterrent. V2&amp;rsquo;s design included hover effects, which didn&amp;rsquo;t perform well on mobile.)</description>
+    </item>
+    
+    <item>
+      <title>Portfolio v1</title>
+      <link>/projects/portfolio-v1/</link>
+      <pubDate>Sun, 30 Oct 2022 00:19:29 -0700</pubDate>
+      
+      <guid>/projects/portfolio-v1/</guid>
+      <description>Every developer (or working professional for that matter) needs a portfolio to showcase their work. This is my one-pager portfolio built with HTML, CSS, JavaScript, and a bit of Tailwind CSS to highlight my skills as a developer. The portfolio&amp;rsquo;s look and feel was inspired by another designer that I used as reference material. Check it out and see how my coding has evolved.</description>
+    </item>
+    
+    <item>
+      <title>Happy Here</title>
+      <link>/projects/happy-here/</link>
+      <pubDate>Sun, 30 Oct 2022 00:15:45 -0700</pubDate>
+      
+      <guid>/projects/happy-here/</guid>
+      <description>A dynamic HTML, CSS, and JavaScript web application for professionals who want to relocate to urban areas. This project was inspired by my 2 years living abroad, itch for travel, and plan for relocating as I break into tech. The web app includes features that allow users to search for quality of life scores for urban areas and store or remove cities from a favorited or skipped list.</description>
+    </item>
+    
+  </channel>
+</rss>
