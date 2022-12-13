@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bootstrap on Anthony Ngo</title>
+    <link>/tags/bootstrap/</link>
+    <description>Recent content in Bootstrap on Anthony Ngo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Oct 2022 00:17:39 -0700</lastBuildDate><atom:link href="/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nowww</title>
+      <link>/projects/nowww/</link>
+      <pubDate>Sun, 30 Oct 2022 00:17:39 -0700</pubDate>
+      
+      <guid>/projects/nowww/</guid>
+      <description>A full stack JavaScript application for professionals who want to share brief written descriptions of their current projects (Nowwws). This project was inspired by Derek Siver&amp;rsquo;s concept of a &amp;lsquo;Now Page&amp;rsquo; and combines the user profile features from OurNows.com with the card gallery aesthetic of ADPList.org. The app allows users to view a gallery of other users and perform CRUD operations through editing profile details along with adding and deleting Nowww entries.</description>
+    </item>
+    
+  </channel>
+</rss>

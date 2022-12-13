@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anthony Ngo</title>
+    <link>/</link>
+    <description>Recent content on Anthony Ngo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Dec 2022 16:59:28 -0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LearnFS.xyz</title>
+      <link>/projects/learnfsxyz/</link>
+      <pubDate>Mon, 12 Dec 2022 16:59:28 -0800</pubDate>
+      
+      <guid>/projects/learnfsxyz/</guid>
+      <description>A webapp to help users learn ASL Fingerspelling alphabet. As a perpetual student, polyglot in progress, and someone who has lived abroad, I&amp;rsquo;ve come to love learning languages (which also extends to programming languages), and that&amp;rsquo;s why I created this project.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio v2</title>
+      <link>/projects/portfolio-2/</link>
+      <pubDate>Mon, 12 Dec 2022 16:55:46 -0800</pubDate>
+      
+      <guid>/projects/portfolio-2/</guid>
+      <description>A multipage portfolio built with Hugo and Bootstrap5. I built this because I needed to update my work and wanted to create a multipage site, and I used Hugo because it simplified blogging and updating content. (I learned that singlepagers provide less friction for visitors. Each click to a different page becomes a potential deterrent. V2&amp;rsquo;s design included hover effects, which didn&amp;rsquo;t perform well on mobile.)</description>
+    </item>
+    
+    <item>
+      <title>EDC Week Clone</title>
+      <link>/projects/edc-week/</link>
+      <pubDate>Sun, 30 Oct 2022 00:26:18 -0700</pubDate>
+      
+      <guid>/projects/edc-week/</guid>
+      <description>A clone of EDC Week&amp;rsquo;s webpage built with Vue3, Vue Router4, and Tailwind CSS. I built this side project because my new position&amp;rsquo;s tech stack uses Vue instead of what I learned in my bootcamp (React). I wanted to build my own project to get the ins and outs and fundamentals down and I like Insomniac events, so I decided to make a clone of its 2022 EDC Week page.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio v1</title>
+      <link>/projects/portfolio-v1/</link>
+      <pubDate>Sun, 30 Oct 2022 00:19:29 -0700</pubDate>
+      
+      <guid>/projects/portfolio-v1/</guid>
+      <description>Every developer (or working professional for that matter) needs a portfolio to showcase their work. This is my one-pager portfolio built with HTML, CSS, JavaScript, and a bit of Tailwind CSS to highlight my skills as a developer. The portfolio&amp;rsquo;s look and feel was inspired by another designer that I used as reference material. Check it out and see how my coding has evolved.</description>
+    </item>
+    
+    <item>
+      <title>Nowww</title>
+      <link>/projects/nowww/</link>
+      <pubDate>Sun, 30 Oct 2022 00:17:39 -0700</pubDate>
+      
+      <guid>/projects/nowww/</guid>
+      <description>A full stack JavaScript application for professionals who want to share brief written descriptions of their current projects (Nowwws). This project was inspired by Derek Siver&amp;rsquo;s concept of a &amp;lsquo;Now Page&amp;rsquo; and combines the user profile features from OurNows.com with the card gallery aesthetic of ADPList.org. The app allows users to view a gallery of other users and perform CRUD operations through editing profile details along with adding and deleting Nowww entries.</description>
+    </item>
+    
+    <item>
+      <title>Happy Here</title>
+      <link>/projects/happy-here/</link>
+      <pubDate>Sun, 30 Oct 2022 00:15:45 -0700</pubDate>
+      
+      <guid>/projects/happy-here/</guid>
+      <description>A dynamic HTML, CSS, and JavaScript web application for professionals who want to relocate to urban areas. This project was inspired by my 2 years living abroad, itch for travel, and plan for relocating as I break into tech. The web app includes features that allow users to search for quality of life scores for urban areas and store or remove cities from a favorited or skipped list.</description>
+    </item>
+    
+    <item>
+      <title>Brandon Van Showcase</title>
+      <link>/projects/brandon-van/</link>
+      <pubDate>Mon, 31 Jan 2022 11:55:36 -0700</pubDate>
+      
+      <guid>/projects/brandon-van/</guid>
+      <description>A portfolio page built with Wordpress CMS and Elementor Pro designed to market the work and enable communications via the contact page and social media links.</description>
+    </item>
+    
+  </channel>
+</rss>

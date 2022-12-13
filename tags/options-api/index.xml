@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Options API on Anthony Ngo</title>
+    <link>/tags/options-api/</link>
+    <description>Recent content in Options API on Anthony Ngo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Oct 2022 00:26:18 -0700</lastBuildDate><atom:link href="/tags/options-api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EDC Week Clone</title>
+      <link>/projects/edc-week/</link>
+      <pubDate>Sun, 30 Oct 2022 00:26:18 -0700</pubDate>
+      
+      <guid>/projects/edc-week/</guid>
+      <description>A clone of EDC Week&amp;rsquo;s webpage built with Vue3, Vue Router4, and Tailwind CSS. I built this side project because my new position&amp;rsquo;s tech stack uses Vue instead of what I learned in my bootcamp (React). I wanted to build my own project to get the ins and outs and fundamentals down and I like Insomniac events, so I decided to make a clone of its 2022 EDC Week page.</description>
+    </item>
+    
+  </channel>
+</rss>

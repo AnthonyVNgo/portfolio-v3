@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bootstrap5 on Anthony Ngo</title>
+    <link>/tags/bootstrap5/</link>
+    <description>Recent content in Bootstrap5 on Anthony Ngo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Dec 2022 16:59:28 -0800</lastBuildDate><atom:link href="/tags/bootstrap5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LearnFS.xyz</title>
+      <link>/projects/learnfsxyz/</link>
+      <pubDate>Mon, 12 Dec 2022 16:59:28 -0800</pubDate>
+      
+      <guid>/projects/learnfsxyz/</guid>
+      <description>A webapp to help users learn ASL Fingerspelling alphabet. As a perpetual student, polyglot in progress, and someone who has lived abroad, I&amp;rsquo;ve come to love learning languages (which also extends to programming languages), and that&amp;rsquo;s why I created this project.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio v2</title>
+      <link>/projects/portfolio-2/</link>
+      <pubDate>Mon, 12 Dec 2022 16:55:46 -0800</pubDate>
+      
+      <guid>/projects/portfolio-2/</guid>
+      <description>A multipage portfolio built with Hugo and Bootstrap5. I built this because I needed to update my work and wanted to create a multipage site, and I used Hugo because it simplified blogging and updating content. (I learned that singlepagers provide less friction for visitors. Each click to a different page becomes a potential deterrent. V2&amp;rsquo;s design included hover effects, which didn&amp;rsquo;t perform well on mobile.)</description>
+    </item>
+    
+  </channel>
+</rss>
