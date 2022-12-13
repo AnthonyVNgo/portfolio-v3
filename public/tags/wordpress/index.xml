@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Anthony Ngo</title>
+    <link>/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Anthony Ngo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jan 2022 11:55:36 -0700</lastBuildDate><atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brandon Van Showcase</title>
+      <link>/projects/brandon-van/</link>
+      <pubDate>Mon, 31 Jan 2022 11:55:36 -0700</pubDate>
+      
+      <guid>/projects/brandon-van/</guid>
+      <description>A portfolio page built with Wordpress CMS and Elementor Pro designed to market the work and enable communications via the contact page and social media links.</description>
+    </item>
+    
+  </channel>
+</rss>
